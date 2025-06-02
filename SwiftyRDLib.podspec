@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
     all bundled in a lightweight, easy-to-use library to speed up your workflow.
   DESC
 
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "Magic Developers" => "nersgagik@gmail.com.com" }
