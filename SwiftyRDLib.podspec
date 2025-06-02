@@ -24,12 +24,9 @@ Pod::Spec.new do |s|
   s.dependency 'IQKeyboardManagerSwift' , '7.0.1'
   s.dependency 'lottie-ios'
 
-  s.source_files = 'SwiftyRDLib/Classes/**/*.{swift,m,h}'
+  s.source_files = 'SwiftyRDLib/Classes/**/*.swift'
 
-  s.resources = [
-    'SwiftyRDLib/Resources/**/*.xcdatamodeld',
-    'SwiftyRDLib/Resources/**/*.otf',
-  ]
+  s.resources = 'SwiftyRDLib/**/*.{xcdatamodeld,otf,xcassets,json}'
 
   s.swift_version = "5.0"
 
