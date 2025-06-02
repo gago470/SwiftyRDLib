@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.license = { :type => "MIT", :file => "LICENSE" }
   s.author = { "Magic Developers" => "nersgagik@gmail.com.com" }
   s.homepage = "https://github.com/gago470/SwiftyRDLib"
-  s.source = { :git => "https://github.com/gago470/SwiftyRDLib.git", :tag => "#{s.version}" }
+  s.source = { :git => "https://github.com/gago470/SwiftyRDLib.git", :branch => "master", :tag => "#{s.version}" }
 
   s.framework = "UIKit"
   s.dependency 'Alamofire'
